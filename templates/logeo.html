@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+    <meta name="viewport" contact="'width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+</head>
+<link rel="stylesheet" href="css/estilos.css">
+<body>
+<div class="contenedor">
+    <form action="" class="form">
+        <div class="form-header">
+            <h1 class="form-title">D<span>atos personales para la eleccion</span></h1>
+        </div>
+        <label for="nombre" class="form-label">Nombres:</label>
+        <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
+
+        <label for="apellido" class="form-label">Apellidos:</label>
+        <input type="text" id="apellido" class="form-input" placeholder="Escriba su apellido">
+
+        <label for="direccion" class="form-label">Direccion:</label>
+        <input type="text" class="form-input" id="direccion" placeholder="Escriba su direccion">
+
+        <label for="sexo" class="form-label">Sexo:</label>
+        <input type="radio" name="opSexo" value="m"><label for="sexo" class="form-sexo">Masculino</label>
+        <input type="radio" name="opSexo" value="f"><label for="sexo" class="form-sexo">Femenino</label>
+
+        <label for="correo" class="form-label">Correo Electronico</label>
+        <textarea id="correo" class="form-textarea" placeholder="Escriba aqui su correo"></textarea>
+
+        <label for="deportesfavoritos" class="form-label">Deportes favoritos: </label>
+        <textarea id="deportesfavoritos" class="form-textarea" placeholder="Escriba aqui sus deportes de preferencia"></textarea>
+
+        <label for="dinero" class="form-label">Dinero a apostar:</label>
+        <input type="radio" name="opDinero" value="a"><label for="dinero" class="form-sexo"> 0 - 100    </label>
+        <input type="radio" name="opDinero" value="b"><label for="dinero" class="form-sexo"> 100 - 500   </label>
+        <input type="radio" name="opDinero" value="c"><label for="dinero" class="form-sexo"> 500 - 1000   </label>
+        <input type="radio" name="opDinero" value="d"><label for="dinero" class="form-sexo"> 1000 a mas </label>
+
+        <label for="mensaje" class="form-label">Mayor informe o comodidad: </label>
+        <textarea id="mensaje" class="form-textarea" placeholder="Escriba aqui"></textarea>
+
+        <input type="submit" class="btn-submit" value="Enviar Formulario">
+    </form>
+</div>
+
+</body>
+</html>
